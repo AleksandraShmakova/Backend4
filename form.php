@@ -99,7 +99,7 @@ if (!empty($messages)) {
 
 
             <div class="pas <?php if ($errors['radio-2']) {print 'error';} ?>">
-                Сколько конечностей?<br>
+                Количество конечностей:<br>
                     <input type="radio" name="radio-2" value="4" <?php if($values['radio-2']=="4") {print 'checked';} ?>/>
                     4
 
@@ -115,7 +115,7 @@ if (!empty($messages)) {
 
 
             <div class="pas <?php if ($errors['super']) {print 'error';} ?>">
-                Сверхспособности?
+                Сверхспособности:
                 
                     <select name="super[]" multiple="multiple">
                     <?php if ($errors['super']) {print 'class="error"';} ?> >
@@ -127,7 +127,7 @@ if (!empty($messages)) {
             </div>
 
             <div class="pas <?php if ($errors['bio']) {print 'error';} ?>">
-                Биография?
+                Биография:
                 <textarea name="bio"><?php print $values['bio']; ?></textarea>
             </div>
 
