@@ -1,5 +1,6 @@
 <style>
-	body{
+	
+body{
   background-image: url("sea.jpg");
   background-size: no-repeat;
   display: flex;
@@ -7,6 +8,7 @@
   margin-top:5%;
   margin-bottom:5%;
 }
+	
 .main{
   padding: 40px;
   width: 250px;
@@ -35,7 +37,7 @@ p{
     margin:2%;
     padding: 5%;
     border: 1px solid;
-    border-color: #fd0130;
+    border-color: #26527C;
     border-radius: 3px;
 }
 	
