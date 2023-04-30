@@ -138,8 +138,7 @@ p{
             </div>
 
 
-            <p>
-                Отправка формы:<br>
+            <p class = "button">
                 <input type="submit" value="Отправить" />
             </p>
         </form>
