@@ -9,10 +9,6 @@ body{
   margin-bottom:5%;
 }
 	
-form{
-  margin-bottom:5%;
-}
-	
 .main{
   padding: 40px;
   width: 250px;
