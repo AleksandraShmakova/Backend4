@@ -12,6 +12,8 @@ body{
 .main{
   padding: 40px;
   width: 250px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #95bade;
   border: 2px solid #26527C;
 }
