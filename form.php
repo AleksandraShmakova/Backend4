@@ -3,6 +3,7 @@
 body{
   background-image: url("sea.jpg");
   background-size: no-repeat;
+  display: flex;
   height: auto;
   justify-content:center;
   margin-top:5%;
