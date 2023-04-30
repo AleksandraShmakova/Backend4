@@ -4,8 +4,6 @@ body{
   background-image: url("sea.jpg");
   background-size: no-repeat;
   display: block;
-  margin-left: 50%;
-  margin-right: 50%;
   justify-content:center;
   margin-top:5%;
   margin-bottom:5%;
