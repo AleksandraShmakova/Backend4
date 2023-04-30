@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   // Выдаем сообщения об ошибках.
   if ($errors['name']) {
     setcookie('name_error', '', 100000);
-    $messages[] = '<div class="pas error"Имя не заполнено или у него неверный формат!</div>';
+    $messages[] = '<div class="pas error">Имя не заполнено или у него неверный формат!</div>';
   }
   if ($errors['email']) {
     setcookie('email_error', '', 100000);
